@@ -1,0 +1,325 @@
+:root {
+  --title-text-color: #212121;
+  --main-color-text: #757575;
+  --secondary-color-text: #2196F3;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* head */
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.6;
+  text-decoration: none;
+  color: var(--title-text-color)
+}
+
+.logo .blue {
+  color: var(--secondary-color-text);
+}
+
+.white {
+  color: rgba(255, 255, 255, 1);
+}
+
+.head-list {
+  list-style-type: none;
+}
+
+.contacts {
+  list-style-type: none;
+}
+
+.link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  text-decoration: none;
+  color: rgba(33, 33, 33, 1);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--secondary-color-text);
+}
+
+/* main studio */
+
+/* choose */
+.choose {
+  background-color: #2F303A;
+}
+
+h1 {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-transform: uppercase;
+  text-align: center
+}
+
+.service {
+  width: 216px;
+  height: 50px;
+  left: 692px;
+  top: 430px;
+  background: var(--secondary-color-text);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  color: rgba(255, 255, 255, 1);
+}
+
+/* <!-- Чим ми займаємося --> */
+
+.work {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  color: var(--title-text-color);
+  list-style-type: none;
+}
+
+.pluses {
+  font-size: 14px;
+  line-height: 1.8;
+  color: var(--main-color-text);
+}
+
+/* Приклади */
+
+.examples {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  color: var(--title-text-color);
+}
+
+.examples-list {
+  list-style-type: none;
+}
+
+/* < !-- Наша команда --> */
+.our-team {
+  background-color: rgba(245, 244, 250, 1);
+  list-style-type: none;
+}
+
+.team {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.7;
+  text-align: center
+}
+
+.best-team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  color: var(--title-text-color);
+  list-style-type: none;
+}
+
+.name {
+  color: var(--title-text-color);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+}
+
+.profession {
+  color: var(--main-color-text);
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+/* footer */
+
+.page-footer {
+  background-color: #2F303A;
+}
+
+.logo-footer {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.6;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+}
+
+.logo-footer .blue {
+  color: var(--secondary-color-text);
+}
+
+.footer-list {
+  font-size: 14px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.footer-nav {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--main-color-text);
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.footer-list:hover,
+.footer-list:focus {
+  color: var(--secondary-color-text);
+}
+
+.footer-nav:hover,
+.footer-nav:focus {
+  color: var(--secondary-color-text);
+
+}
+
+/* portfolio */
+
+.all-button {
+  width: 73px;
+  height: 38px;
+  left: 512px;
+  top: 174px;
+  background-color: rgba(245, 244, 250, 1);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  color: rgba(33, 33, 33, 1);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.button-site {
+  width: 125px;
+  height: 38px;
+  left: 593px;
+  top: 174px;
+  background: rgba(245, 244, 250, 1);
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  color: rgba(33, 33, 33, 1);
+  border: none;
+}
+
+.button-applications {
+  width: 112px;
+  height: 38px;
+  left: 726px;
+  top: 174px;
+  background: rgba(245, 244, 250, 1);
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  color: rgba(33, 33, 33, 1);
+  border: none;
+}
+
+.button-design {
+  width: 103px;
+  height: 38px;
+  left: 846px;
+  top: 174px;
+  background: rgba(245, 244, 250, 1);
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  color: rgba(33, 33, 33, 1);
+  border: none;
+}
+
+.button-marketing {
+  width: 130px;
+  height: 38px;
+  left: 957px;
+  top: 174px;
+  background: rgba(245, 244, 250, 1);
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  color: rgba(33, 33, 33, 1);
+  border: none;
+}
+
+.button-marketing:hover,
+.button-marketing:focus {
+  background: var(--secondary-color-text);
+  color: rgba(245, 244, 250, 1);
+  cursor: pointer;
+}
+
+.button-design:hover,
+.button-design:focus {
+  background: var(--secondary-color-text);
+  color: rgba(245, 244, 250, 1);
+  cursor: pointer;
+}
+
+.button-applications:hover,
+.button-applications:focus {
+  background: var(--secondary-color-text);
+  color: rgba(245, 244, 250, 1);
+  cursor: pointer;
+}
+
+.button-site:hover,
+.button-site:focus {
+  background: var(--secondary-color-text);
+  color: rgba(245, 244, 250, 1);
+  cursor: pointer;
+
+}
+
+.all-button:hover,
+.all-button:focus {
+  background: var(--secondary-color-text);
+  color: rgba(245, 244, 250, 1);
+  cursor: pointer;
+}
+
+.descr {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+
+.card {
+  text-decoration: none;
+}
+
+.menu {
+  font-size: 16px;
+  line-height: 1.9;
+  color: rgba(117, 117, 117, 1);
+}
