@@ -2,16 +2,30 @@
   --title-text-color: #212121;
   --main-color-text: #757575;
   --secondary-color-text: #2196F3;
+  --body-color-basic: #FFFFFF;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: var(--body-color-basic);
+  color: var(--title-text-color);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.hidden {
+  visibility: hidden;
+  overflow: hidden;
+  height: 0;
+}
+
+.reset-list li {
+  list-style: none;
 }
 
 /* head */
 .logo {
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
   font-size: 26px;
   line-height: 1.6;
   text-decoration: none;
@@ -23,11 +37,11 @@ body {
 }
 
 .white {
-  color: rgba(255, 255, 255, 1);
+  color: var(--body-color-basic);
 }
 
 .head-list {
-  list-style-type: none;
+  list-style: none;
 }
 
 .contacts {
@@ -36,10 +50,9 @@ body {
 
 .link {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.2;
   text-decoration: none;
-  color: rgba(33, 33, 33, 1);
+  color: var(--title-text-color);
 }
 
 .contacts .link {
@@ -47,7 +60,8 @@ body {
 }
 
 .link:hover,
-.link:focus {
+.link:focus,
+.link.active {
   color: var(--secondary-color-text);
 }
 
@@ -59,7 +73,7 @@ body {
 }
 
 h1 {
-  color: rgba(255, 255, 255, 1);
+  color: var(--body-color-basic);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
@@ -78,33 +92,28 @@ h1 {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
-  color: rgba(255, 255, 255, 1);
+  color: var(--body-color-basic);
 }
 
 /* <!-- Чим ми займаємося --> */
 
-.work {
-  font-weight: 700;
-  font-size: 14px;
+.work-title {
   line-height: 1.2;
   color: var(--title-text-color);
-  list-style-type: none;
+  list-style: none;
 }
 
-.pluses {
-  font-size: 14px;
-  line-height: 1.8;
+.work-text {
+  line-height: 1.71;
   color: var(--main-color-text);
 }
 
 /* Приклади */
 
 .examples {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
-  color: var(--title-text-color);
 }
 
 .examples-list {
@@ -113,20 +122,13 @@ h1 {
 
 /* < !-- Наша команда --> */
 .our-team {
-  background-color: rgba(245, 244, 250, 1);
+  background-color: var(--body-color-basic);
   list-style-type: none;
 }
 
-.team {
-  color: var(--title-text-color);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.7;
-  text-align: center
-}
+
 
 .best-team {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
   color: var(--title-text-color);
@@ -134,17 +136,14 @@ h1 {
 }
 
 .name {
-  color: var(--title-text-color);
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.2;
   text-align: center;
 }
 
 .profession {
   color: var(--main-color-text);
-  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
@@ -157,12 +156,11 @@ h1 {
 }
 
 .logo-footer {
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
   font-size: 26px;
   line-height: 1.6;
   text-decoration: none;
-  color: rgba(255, 255, 255, 1);
+  color: var(--body-color-basic);
 }
 
 .logo-footer .blue {
@@ -170,19 +168,18 @@ h1 {
 }
 
 .footer-list {
-  font-size: 14px;
   line-height: 1.7;
-  color: rgba(255, 255, 255, 1);
+  color: var(--body-color-basic);
   text-decoration: none;
-  list-style-type: none;
+  list-style: none;
+  font-style: normal;
 }
 
 .footer-nav {
-  font-size: 14px;
   line-height: 1.7;
-  color: var(--main-color-text);
+  color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
-  list-style-type: none;
+  font-style: normal;
 }
 
 .footer-list:hover,
@@ -197,6 +194,7 @@ h1 {
 }
 
 /* portfolio */
+
 
 .all-button {
   width: 73px;
@@ -311,7 +309,6 @@ h1 {
 }
 
 .title {
-  font-weight: 700;
   font-size: 18px;
   line-height: 36px;
   color: var(--title-text-color);
@@ -325,5 +322,5 @@ h1 {
 .menu {
   font-size: 16px;
   line-height: 1.9;
-  color: rgba(117, 117, 117, 1);
+  color: var(--main-color-text);
 }
