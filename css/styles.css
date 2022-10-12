@@ -52,8 +52,13 @@ body {
 }
 
 .head-list {
+  display: flex;
   letter-spacing: 2%;
   list-style: none;
+}
+
+.list-nav {
+  margin-right: 40px;
 }
 
 .contacts {
@@ -164,7 +169,6 @@ body {
   line-height: 1.2;
   color: var(--title-text-color);
   list-style-type: none;
-  background-color: var(--body-color-basic);
 }
 
 .name {
