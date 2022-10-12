@@ -1,3 +1,13 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 :root {
   --title-text-color: #212121;
   --main-color-text: #757575;
@@ -29,7 +39,8 @@ body {
   font-size: 26px;
   line-height: 1.6;
   text-decoration: none;
-  color: var(--title-text-color)
+  color: var(--title-text-color);
+  letter-spacing: 3%;
 }
 
 .logo .blue {
@@ -41,6 +52,7 @@ body {
 }
 
 .head-list {
+  letter-spacing: 2%;
   list-style: none;
 }
 
@@ -78,14 +90,13 @@ body {
   font-size: 44px;
   line-height: 1.4;
   text-transform: uppercase;
-  text-align: center
+  text-align: center;
+  Letter-spacing: 6%;
 }
 
 .service {
   width: 216px;
   height: 50px;
-  left: 692px;
-  top: 430px;
   background: var(--secondary-color-text);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -93,6 +104,8 @@ body {
   font-size: 16px;
   line-height: 1.9;
   color: var(--body-color-basic);
+  cursor: pointer;
+  Letter-spacing: 6%;
 }
 
 /* <!-- Чим ми займаємося --> */
@@ -106,28 +119,41 @@ body {
 .work-title {
   line-height: 1.15;
   text-transform: uppercase;
+  Letter-spacing: 3%;
 }
 
 .work-text {
   line-height: 1.71;
   color: var(--main-color-text);
+  Letter-spacing: 3%;
 }
 
 /* Приклади */
-
-.section-title {
+.examples-title {
   font-size: 36px;
-  line-height: 1.2;
+  Line-height: 1.2;
+  letter-spacing: 3%;
   text-align: center;
+  color: var(--title-text-color);
+  Letter-spacing: 3%;
 }
+
+
 
 .examples-list {
   list-style-type: none;
 }
 
 /* < !-- Наша команда --> */
+.section-title {
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 3%;
+}
+
 .our-team {
-  background-color: var(--body-color-basic);
+  background-color: rgba(245, 244, 250, 1);
   list-style-type: none;
 }
 
@@ -138,6 +164,7 @@ body {
   line-height: 1.2;
   color: var(--title-text-color);
   list-style-type: none;
+  background-color: var(--body-color-basic);
 }
 
 .name {
@@ -145,6 +172,7 @@ body {
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
+  Letter-spacing: 3%;
 }
 
 .profession {
@@ -178,6 +206,7 @@ body {
   text-decoration: none;
   list-style: none;
   font-style: normal;
+  Letter-spacing: 3%;
 }
 
 .footer-nav {
@@ -185,6 +214,7 @@ body {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   font-style: normal;
+  Letter-spacing: 3%;
 }
 
 
@@ -208,6 +238,7 @@ body {
   border: none;
   cursor: pointer;
   font-family: inherit;
+  Letter-spacing: 3%;
 }
 
 
@@ -229,6 +260,7 @@ body {
   letter-spacing: 2px;
   color: var(--title-text-color);
   text-decoration: none;
+  Letter-spacing: 6%;
 }
 
 .card {
@@ -239,4 +271,5 @@ body {
   font-size: 16px;
   line-height: 1.9;
   color: var(--main-color-text);
+  Letter-spacing: 3%;
 }
