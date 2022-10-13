@@ -21,12 +21,14 @@ body {
   background-color: var(--body-color-basic);
   color: var(--title-text-color);
   font-size: 14px;
+  min-width: 1170px;
 }
 
 .hidden {
   visibility: hidden;
   overflow: hidden;
   height: 0;
+  margin: 0;
 }
 
 .reset-list li {
@@ -82,6 +84,16 @@ body {
 .contacts {
   display: flex;
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contacts li {
+  padding-right: 50px;
+}
+
+.contacts li:last-child {
+  padding-right: 0;
 }
 
 .link {
@@ -89,6 +101,7 @@ body {
   line-height: 1.2;
   text-decoration: none;
   color: var(--title-text-color);
+  letter-spacing: 0.02em;
 }
 
 .contacts .link {
@@ -108,12 +121,12 @@ body {
   background-color: #2F303A;
   letter-spacing: 0.06em;
   padding-top: 200px;
-  padding-bottom: 50px;
+  padding-bottom: 200px;
   text-align: center;
 }
 
 .hero-title {
-  margin: 0;
+  margin-bottom: 30px;
   color: var(--body-color-basic);
   font-weight: 900;
   font-size: 44px;
@@ -121,14 +134,12 @@ body {
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 0.06em;
-
 }
 
 .service {
-  display: inline-block;
-  margin: 0;
   width: 216px;
   height: 50px;
+  border: none;
   background: var(--secondary-color-text);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -138,8 +149,7 @@ body {
   text-align: center;
   color: var(--body-color-basic);
   cursor: pointer;
-
-
+  letter-spacing: 0.03em;
 }
 
 /* <!-- Чим ми займаємося --> */
@@ -148,11 +158,19 @@ body {
 
 .work {
   display: flex;
-  margin-top: 94px;
-  padding-right: 30px;
+  margin: 0;
+  padding: 94px 0 0 0;
   line-height: 1.2;
   color: var(--title-text-color);
   list-style: none;
+}
+
+.work li {
+  padding-right: 0;
+}
+
+.work li:last-child {
+  padding-right: 0;
 }
 
 .work-title {
@@ -183,8 +201,16 @@ body {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
-  padding-bottom: 94px;
-  margin: 0;
+  margin: 0 0 94px 0;
+  padding: 0;
+}
+
+.examples-list li {
+  padding-right: 30px;
+}
+
+.examples-list li:last-child {
+  padding-right: 0;
 }
 
 /* < !-- Наша команда --> */
@@ -197,15 +223,15 @@ body {
 }
 
 .our-team {
-
+  padding: 0;
+  margin: 0;
   background-color: rgba(245, 244, 250, 1);
   list-style-type: none;
 }
 
-
-
+/* # ul */
 .best-team {
-
+  display: flex;
   font-size: 36px;
   line-height: 1.2;
   color: var(--title-text-color);
@@ -213,7 +239,7 @@ body {
 }
 
 .best-team-item {
-  display: inline-block;
+  margin: 50px;
   margin-bottom: 94px;
   background-color: var(--body-color-basic);
 }
@@ -235,18 +261,18 @@ body {
 
 /* footer */
 
-.page-footer {
+.footer {
   background-color: #2F303A;
 }
 
 .logo-footer {
   padding-top: 60px;
-
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
   line-height: 1.6;
   text-decoration: none;
   color: var(--body-color-basic);
+  letter-spacing: 00.03em;
 }
 
 .logo-footer .blue {
@@ -280,6 +306,10 @@ body {
 }
 
 /* portfolio */
+.filter {
+  display: flex;
+  justify-content: center;
+}
 
 .menu-button {
   background-color: var(--button-background);
@@ -292,6 +322,9 @@ body {
   cursor: pointer;
   font-family: inherit;
   letter-spacing: 0.03em;
+  padding: 6px 25px;
+  margin: 0 4px;
+  height: 38px;
 }
 
 
