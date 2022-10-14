@@ -149,11 +149,10 @@ body {
   text-align: center;
   color: var(--body-color-basic);
   cursor: pointer;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.06em;
 }
 
 /* <!-- Чим ми займаємося --> */
-
 
 
 .work {
@@ -231,17 +230,26 @@ body {
 
 /* # ul */
 .best-team {
+
   display: flex;
   font-size: 36px;
   line-height: 1.2;
   color: var(--title-text-color);
   list-style-type: none;
+  letter-spacing: 0.03;
 }
 
 .best-team-item {
-  margin: 50px;
-  margin-bottom: 94px;
+
   background-color: var(--body-color-basic);
+}
+
+.best-team-item {
+  margin-right: 30px;
+}
+
+.best-team-item:last-child {
+  margin-right: 0;
 }
 
 .name {
@@ -272,7 +280,7 @@ body {
   line-height: 1.6;
   text-decoration: none;
   color: var(--body-color-basic);
-  letter-spacing: 00.03em;
+  letter-spacing: 0.03em;
 }
 
 .logo-footer .blue {
@@ -295,8 +303,6 @@ body {
   font-style: normal;
   Letter-spacing: 0.03em;
 }
-
-
 
 
 .footer-nav:hover,
